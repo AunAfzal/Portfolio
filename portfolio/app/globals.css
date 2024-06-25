@@ -2,32 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #1a202c; /* Primary background color */
+  color: #ffffff; /* Text color */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
 }
+
+::-webkit-scrollbar-track {
+  background: #2d3748; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4299e1; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3182ce; /* Color when hovering over the thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4299e1 #2d3748;
+}
+
