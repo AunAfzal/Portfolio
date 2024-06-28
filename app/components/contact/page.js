@@ -4,8 +4,9 @@ import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    to_name:'Aun',
+    from_name: '',
+    from_email: '',
     message: '',
   });
   const [status, setStatus] = useState('');
@@ -40,16 +41,16 @@ export default function Contact() {
       <form onSubmit={handleSubmit} className="w-full max-w-lg space-y-4">
         <input
           type="text"
-          name="name"
-          value={formData.name}
+          name="from_name"
+          value={formData.from_name}
           onChange={handleChange}
           placeholder="Enter Your Name"
           className="w-full px-4 py-2 bg-gray-700 rounded-lg text-white focus:outline-none"
         />
         <input
           type="email"
-          name="email"
-          value={formData.email}
+          name="from_email"
+          value={formData.from_email}
           onChange={handleChange}
           placeholder="Enter Your Email"
           className="w-full px-4 py-2 bg-gray-700 rounded-lg text-white focus:outline-none"
