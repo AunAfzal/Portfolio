@@ -8,31 +8,61 @@ const projects = [
     name: 'Hoop Master',
     description: 'Hoop Master is a Basketball training app that helps athletes by designing specific courses for them. It includes video analysis features to analyze the game and provide feedback for improvement. It also integrates social platform functionalities and athlete portfolio management.',
     technologies: ['React Native', 'Next.js', 'Python', 'LLM', 'Deep Learning', 'Figma', 'MongoDB'],
-    pictures: ['https://imgur.com/lybYkFc', 'https://imgur.com/LB44bWE','https://imgur.com/dMXoBTF','https://imgur.com/dmEIoYx','https://imgur.com/bf9V5Ee','https://imgur.com/ZLqvsUB','https://imgur.com/9Po2Xfb.png'],
+    pictures: [
+      'https://i.imgur.com/lybYkFc.jpg',
+      'https://i.imgur.com/LB44bWE.jpg',
+      'https://i.imgur.com/dMXoBTF.jpg',
+      'https://i.imgur.com/dmEIoYx.jpg',
+      'https://i.imgur.com/bf9V5Ee.jpg',
+      'https://i.imgur.com/ZLqvsUB.jpg',
+      'https://i.imgur.com/9Po2Xfb.jpg'
+    ],
     video: ''
   },
   {
     name: 'Promptopia',
     description: 'Promptopia is a website where users can search, view, and add various AI prompts with authentication. It implements dynamic routing and API routes for CRUD operations.',
     technologies: ['Next.js', 'MongoDB'],
-    pictures: ['https://imgur.com/5fcmlFp', 'https://imgur.com/txiW3HD','https://imgur.com/7cAvHW2','https://imgur.com/3mvy3nm','https://imgur.com/HCZBqZ6'],
+    pictures: [
+      'https://i.imgur.com/5fcmlFp.jpg',
+      'https://i.imgur.com/txiW3HD.jpg',
+      'https://i.imgur.com/7cAvHW2.jpg',
+      'https://i.imgur.com/3mvy3nm.jpg',
+      'https://i.imgur.com/HCZBqZ6.jpg'
+    ],
     video: '/media/p/vid.mp4'
   },
   {
     name: 'ConsoleHub',
     description: 'ConsoleHub is an e-commerce platform for buyers and sellers to register and transact console games and accessories. It features a Node.js backend to handle authentication, product listings, and transaction management, and a Next.js frontend for user-friendly navigation and interaction. Secure payment gateways and user data management with MongoDB are integrated.',
     technologies: ['Node.js', 'Next.js', 'MongoDB'],
-    pictures: ['https://imgur.com/iG4I4bq', 'https://imgur.com/htLaKTk','https://imgur.com/upRgnU9','https://imgur.com/Gnbi1fn','https://imgur.com/ChouSqB','https://imgur.com/tkr55IU','https://imgur.com/wxM1pXZ','https://imgur.com/t5aFgEi'],
+    pictures: [
+      'https://i.imgur.com/iG4I4bq.jpg',
+      'https://i.imgur.com/htLaKTk.jpg',
+      'https://i.imgur.com/upRgnU9.jpg',
+      'https://i.imgur.com/Gnbi1fn.jpg',
+      'https://i.imgur.com/ChouSqB.jpg',
+      'https://i.imgur.com/tkr55IU.jpg',
+      'https://i.imgur.com/wxM1pXZ.jpg',
+      'https://i.imgur.com/t5aFgEi.jpg'
+    ],
     video: '/media/ch/vid.mp4'
   },
   {
     name: 'Blog Reader',
     description: 'Blog Reader is a platform that allows users to view, search, and filter blogs. It includes features for managing personal profiles and tracking views, comments, and likes on blogs.',
     technologies: ['MongoDB', 'Express', 'React', 'Node.js'],
-    pictures: ['https://imgur.com/VyfjTF7', 'https://imgur.com/j25OW3u','https://imgur.com/GzblT8B','https://imgur.com/8u1RwsO','https://imgur.com/iIPIhTS'],
+    pictures: [
+      'https://i.imgur.com/VyfjTF7.jpg',
+      'https://i.imgur.com/j25OW3u.jpg',
+      'https://i.imgur.com/GzblT8B.jpg',
+      'https://i.imgur.com/8u1RwsO.jpg',
+      'https://i.imgur.com/iIPIhTS.jpg'
+    ],
     video: '/media/br/vid.mp4'
   }
 ];
+
 
 const Project = ({ params }) => {
   const router = useRouter();
