@@ -22,7 +22,7 @@ const projects = [
     name: 'ConsoleHub',
     description: 'ConsoleHub is an e-commerce platform for buyers and sellers to register and transact console games and accessories. It features a Node.js backend to handle authentication, product listings, and transaction management, and a Next.js frontend for user-friendly navigation and interaction. Secure payment gateways and user data management with MongoDB are integrated.',
     technologies: ['Node.js', 'Next.js', 'MongoDB'],
-    pictures: ['/media/ch/1.png', '/media/ch/2.png','/media/ch/3.png','/media/ch/4.png','/media/ch/5.png','/media/ch/6.png','/media/ch/7.png'],
+    pictures: ['/media/ch/1.png', '/media/ch/2.png','/media/ch/3.png','/media/ch/4.png','/media/ch/5.png','/media/ch/6.png','/media/ch/7.png','/media/ch/8.png'],
     video: '/media/ch/vid.mp4'
   },
   {
