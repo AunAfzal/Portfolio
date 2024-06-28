@@ -8,7 +8,7 @@ const projects = [
     name: 'Hoop Master',
     description: 'Hoop Master is a Basketball training app that helps athletes by designing specific courses for them. It includes video analysis features to analyze the game and provide feedback for improvement. It also integrates social platform functionalities and athlete portfolio management.',
     technologies: ['React Native', 'Next.js', 'Python', 'LLM', 'Deep Learning', 'Figma', 'MongoDB'],
-    pictures: ['https://imgur.com/lybYkFc', 'https://imgur.com/LB44bWE','https://imgur.com/dMXoBTF','https://imgur.com/dmEIoYx','https://imgur.com/bf9V5Ee','https://imgur.com/ZLqvsUB','https://imgur.com/9Po2Xfbhttps://i.imgur.com/9Po2Xfb.png'],
+    pictures: ['https://imgur.com/lybYkFc', 'https://imgur.com/LB44bWE','https://imgur.com/dMXoBTF','https://imgur.com/dmEIoYx','https://imgur.com/bf9V5Ee','https://imgur.com/ZLqvsUB','https://imgur.com/9Po2Xfb.png'],
     video: ''
   },
   {
