@@ -8,28 +8,28 @@ const projects = [
     name: 'Hoop Master',
     description: 'Hoop Master is a Basketball training app that helps athletes by designing specific courses for them. It includes video analysis features to analyze the game and provide feedback for improvement. It also integrates social platform functionalities and athlete portfolio management.',
     technologies: ['React Native', 'Next.js', 'Python', 'LLM', 'Deep Learning', 'Figma', 'MongoDB'],
-    pictures: ['/media/hm/1.png', '/media/hm/2.png','/media/hm/3.png','/media/hm/4.png','/media/hm/5.png','/media/hm/6.png','/media/hm/7.png'],
+    pictures: ['https://imgur.com/lybYkFc', 'https://imgur.com/LB44bWE','https://imgur.com/dMXoBTF','https://imgur.com/dmEIoYx','https://imgur.com/bf9V5Ee','https://imgur.com/ZLqvsUB','https://imgur.com/9Po2Xfb'],
     video: ''
   },
   {
     name: 'Promptopia',
     description: 'Promptopia is a website where users can search, view, and add various AI prompts with authentication. It implements dynamic routing and API routes for CRUD operations.',
     technologies: ['Next.js', 'MongoDB'],
-    pictures: ['/media/p/1.png', '/media/p/2.png','/media/p/3.png','/media/p/4.png','/media/p/5.png'],
+    pictures: ['https://imgur.com/5fcmlFp', 'https://imgur.com/txiW3HD','https://imgur.com/7cAvHW2','https://imgur.com/3mvy3nm','https://imgur.com/HCZBqZ6'],
     video: '/media/p/vid.mp4'
   },
   {
     name: 'ConsoleHub',
     description: 'ConsoleHub is an e-commerce platform for buyers and sellers to register and transact console games and accessories. It features a Node.js backend to handle authentication, product listings, and transaction management, and a Next.js frontend for user-friendly navigation and interaction. Secure payment gateways and user data management with MongoDB are integrated.',
     technologies: ['Node.js', 'Next.js', 'MongoDB'],
-    pictures: ['/media/ch/1.png', '/media/ch/2.png','/media/ch/3.png','/media/ch/4.png','/media/ch/5.png','/media/ch/6.png','/media/ch/7.png','/media/ch/8.png'],
+    pictures: ['https://imgur.com/iG4I4bq', 'https://imgur.com/htLaKTk','https://imgur.com/upRgnU9','https://imgur.com/Gnbi1fn','https://imgur.com/ChouSqB','https://imgur.com/tkr55IU','https://imgur.com/wxM1pXZ','https://imgur.com/t5aFgEi'],
     video: '/media/ch/vid.mp4'
   },
   {
     name: 'Blog Reader',
     description: 'Blog Reader is a platform that allows users to view, search, and filter blogs. It includes features for managing personal profiles and tracking views, comments, and likes on blogs.',
     technologies: ['MongoDB', 'Express', 'React', 'Node.js'],
-    pictures: ['/media/br/1.png', '/media/br/2.png','/media/br/3.png','/media/br/4.png','/media/br/5.png'],
+    pictures: ['https://imgur.com/VyfjTF7', 'https://imgur.com/j25OW3u','https://imgur.com/GzblT8B','https://imgur.com/8u1RwsO','https://imgur.com/iIPIhTS'],
     video: '/media/br/vid.mp4'
   }
 ];
