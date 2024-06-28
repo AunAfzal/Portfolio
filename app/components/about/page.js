@@ -11,13 +11,13 @@ export default function About() {
         <div className="md:w-1/2 space-y-4">
           <h3 className="text-2xl font-semibold font-poppins">Know About Me!</h3>
           <p className="text-lg">
-            Greetings! I'm Muhammad Aun Afzal, a dedicated full-stack developer with expertise in Next.js, React, and a range of other technologies. Currently pursuing a Bachelor of Software Engineering at COMSATS University Islamabad.
+            Greetings! I'm Muhammad Aun Afzal, a dedicated full-stack developer with expertise in Next.js, next.js, and a range of other technologies. Currently pursuing a Bachelor of Software Engineering at COMSATS University Islamabad.
           </p>
           <p className="text-lg">
-          I have a proven track record of crafting high-quality digital solutions, from creating seamless user interfaces with React.js to architecting robust backend systems using Node.js. My focus is always on delivering clean, efficient, and scalable code that exceeds expectations.
+          I have a proven track record of crafting high-quality digital solutions, from creating seamless user interfaces with next.js to architecting robust backend systems using Node.js. My focus is always on delivering clean, efficient, and scalable code that exceeds expectations.
           </p>
           <p className="text-lg">
-          Throughout my career, I've had the opportunity to professionaly work on a variety of projects, each presenting unique challenges and opportunities for growth. I thrive on the continuous learning and problem-solving inherent in the tech industry.
+          I've had the opportunity to work on a variety of projects, each presenting unique challenges and opportunities for growth. I thrive on the continuous learning and problem-solving inherent in the tech industry.
           </p>
         </div>
         

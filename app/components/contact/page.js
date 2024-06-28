@@ -22,10 +22,10 @@ export default function Contact() {
     setStatus('Sending...');
 
     emailjs.send(
-      'service_sbci0wh',
+      'service_3wrq1sg',
       'template_cnvi8do',
       formData,
-      '6mDC8bWHpPJUjhWGi'
+      'aS_1bZYfa8R0y4Cva'
     ).then((response) => {
       setStatus('Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
