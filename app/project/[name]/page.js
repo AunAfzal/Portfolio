@@ -9,13 +9,13 @@ const projects = [
     description: 'Hoop Master is a Basketball training app that helps athletes by designing specific courses for them. It includes video analysis features to analyze the game and provide feedback for improvement. It also integrates social platform functionalities and athlete portfolio management.',
     technologies: ['React Native', 'Next.js', 'Python', 'LLM', 'Deep Learning', 'Figma', 'MongoDB'],
     pictures: [
-      'https://i.imgur.com/lybYkFc.jpg',
-      'https://i.imgur.com/LB44bWE.jpg',
-      'https://i.imgur.com/dMXoBTF.jpg',
-      'https://i.imgur.com/dmEIoYx.jpg',
-      'https://i.imgur.com/bf9V5Ee.jpg',
-      'https://i.imgur.com/ZLqvsUB.jpg',
-      'https://i.imgur.com/9Po2Xfb.jpg'
+      'https://i.imgur.com/lybYkFc.png',
+      'https://i.imgur.com/LB44bWE.png',
+      'https://i.imgur.com/dMXoBTF.png',
+      'https://i.imgur.com/dmEIoYx.png',
+      'https://i.imgur.com/bf9V5Ee.png',
+      'https://i.imgur.com/ZLqvsUB.png',
+      'https://i.imgur.com/9Po2Xfb.png'
     ],
     video: ''
   },
@@ -24,42 +24,42 @@ const projects = [
     description: 'Promptopia is a website where users can search, view, and add various AI prompts with authentication. It implements dynamic routing and API routes for CRUD operations.',
     technologies: ['Next.js', 'MongoDB'],
     pictures: [
-      'https://i.imgur.com/5fcmlFp.jpg',
-      'https://i.imgur.com/txiW3HD.jpg',
-      'https://i.imgur.com/7cAvHW2.jpg',
-      'https://i.imgur.com/3mvy3nm.jpg',
-      'https://i.imgur.com/HCZBqZ6.jpg'
+      'https://i.imgur.com/5fcmlFp.png',
+      'https://i.imgur.com/txiW3HD.png',
+      'https://i.imgur.com/7cAvHW2.png',
+      'https://i.imgur.com/3mvy3nm.png',
+      'https://i.imgur.com/HCZBqZ6.png'
     ],
-    video: '/media/p/vid.mp4'
+    video: 'https://www.youtube.com/embed/KSfgSI2qFj4'
   },
   {
     name: 'ConsoleHub',
     description: 'ConsoleHub is an e-commerce platform for buyers and sellers to register and transact console games and accessories. It features a Node.js backend to handle authentication, product listings, and transaction management, and a Next.js frontend for user-friendly navigation and interaction. Secure payment gateways and user data management with MongoDB are integrated.',
     technologies: ['Node.js', 'Next.js', 'MongoDB'],
     pictures: [
-      'https://i.imgur.com/iG4I4bq.jpg',
-      'https://i.imgur.com/htLaKTk.jpg',
-      'https://i.imgur.com/upRgnU9.jpg',
-      'https://i.imgur.com/Gnbi1fn.jpg',
-      'https://i.imgur.com/ChouSqB.jpg',
-      'https://i.imgur.com/tkr55IU.jpg',
-      'https://i.imgur.com/wxM1pXZ.jpg',
-      'https://i.imgur.com/t5aFgEi.jpg'
+      'https://i.imgur.com/iG4I4bq.png',
+      'https://i.imgur.com/htLaKTk.png',
+      'https://i.imgur.com/upRgnU9.png',
+      'https://i.imgur.com/Gnbi1fn.png',
+      'https://i.imgur.com/ChouSqB.png',
+      'https://i.imgur.com/tkr55IU.png',
+      'https://i.imgur.com/wxM1pXZ.png',
+      'https://i.imgur.com/t5aFgEi.png'
     ],
-    video: '/media/ch/vid.mp4'
+    video: 'https://www.youtube.com/embed/gH8RqiL61Bc'
   },
   {
     name: 'Blog Reader',
     description: 'Blog Reader is a platform that allows users to view, search, and filter blogs. It includes features for managing personal profiles and tracking views, comments, and likes on blogs.',
     technologies: ['MongoDB', 'Express', 'React', 'Node.js'],
     pictures: [
-      'https://i.imgur.com/VyfjTF7.jpg',
-      'https://i.imgur.com/j25OW3u.jpg',
-      'https://i.imgur.com/GzblT8B.jpg',
-      'https://i.imgur.com/8u1RwsO.jpg',
-      'https://i.imgur.com/iIPIhTS.jpg'
+      'https://i.imgur.com/VyfjTF7.png',
+      'https://i.imgur.com/j25OW3u.png',
+      'https://i.imgur.com/GzblT8B.png',
+      'https://i.imgur.com/8u1RwsO.png',
+      'https://i.imgur.com/iIPIhTS.png'
     ],
-    video: '/media/br/vid.mp4'
+    video: 'https://www.youtube.com/embed/Gxdoj7ZztPo'
   }
 ];
 
@@ -141,7 +141,7 @@ const Project = ({ params }) => {
           {project.video ? (
             <iframe
               className="w-full h-96"
-              src={`${project.video}?playbackRate=2`}
+              src={project.video}
               title={project.name}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -150,7 +150,7 @@ const Project = ({ params }) => {
           ) : (
             <p className="text-lg">Project is being implemented</p>
           )}
-        </div>
+      </div>
       </div>
       </div>
   );
