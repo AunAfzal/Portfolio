@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-primary text-white p-4 flex justify-between items-center fixed w-full z-50">
+    <nav className="bg-gray-900 text-white p-4 flex justify-between items-center fixed w-full z-50">
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12">
           <Image
